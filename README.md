@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/easyweek-mcp-nightscout-badge.png)](https://mseep.ai/app/easyweek-mcp-nightscout)
+
 # MCP Nightscout
 
 An [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) server that connects AI assistants to [Nightscout](http://www.nightscout.info/) — the open-source CGM remote monitoring platform for Type 1 Diabetes management.
