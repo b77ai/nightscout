@@ -10,13 +10,14 @@ Built with [FastMCP](https://github.com/jlowin/fastmcp), this server exposes Nig
 
 - **get_current_glucose** — latest CGM reading with value, trend arrow, and device info
 - **get_recent_glucose** — recent readings (default: last 3 hours)
-- **get_glucose_by_date_range** — readings for a specific date range
+- **get_glucose_by_date_range** — raw readings for a specific short date range
 
 ### Analytics
 
-- **calculate_time_in_range** — TIR stats with breakdown (in range, below, above, very low, very high), estimated A1C, and coefficient of variation
+- **calculate_time_in_range** — TIR stats with breakdown (in range, below, above, very low, very high), estimated HbA1c, and coefficient of variation
 - **get_daily_glucose_stats** — daily stats with hourly averages
 - **analyze_glucose_patterns** — multi-day pattern analysis to identify recurring highs/lows by time of day
+- **get_glucose_stats_batch** — aggregated glucose stats for long date ranges using a single range query
 
 ### Treatments
 
